@@ -129,6 +129,6 @@ public class Main {
         pow1 = Math.pow(x,y) ;
 
         System.out.println("nhan: "+sum11);*/
-
+//
     }
 }
