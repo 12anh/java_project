@@ -111,7 +111,7 @@ public class Main {
 
  // Bai 12 ---------------
 
-   /* double sum12 =0
+   /*double sum12 =0 ;
         double x,y;
 
         do {
@@ -124,11 +124,216 @@ public class Main {
             y = sc1.nextDouble();
         }
         while (x <= 0|| y<=0 );
-        double pow1;
-        for(y=1;y<=n;y++)
-        pow1 = Math.pow(x,y) ;
+        double pow1=1;
+        for(double i =1;i<=y;i++)
+        {pow1 = Math.pow(x,i) ;
+        sum12+= pow1 ;}
+        System.out.println("nhan: "+sum12);*/
 
-        System.out.println("nhan: "+sum11);*/
-//
+//Bai 13 --------------------
+/*double sum13 =0 ;
+        double x,y;
+
+        do {
+            System.out.println("Nhap vao so nguyuen x >0 ");
+            Scanner sc = new Scanner(System.in);
+            x = sc.nextDouble() ;
+
+            System.out.println("Nhap vao so nguyuen y >0 ");
+            Scanner sc1 = new Scanner(System.in);
+            y = sc1.nextDouble();
+        }
+        while (x <= 0|| y<=0 );
+        double pow1=1;
+        for(double i =1;i<=y;i++)
+        {pow1 = Math.pow(x,2*i) ;
+        sum13+= pow1 ;}
+        System.out.println("nhan: "+sum13);   */
+
+//Bai 14 --------------------
+/*double sum14 =0 ;
+        double x,y;
+
+        do {
+            System.out.println("Nhap vao so nguyuen x >0 ");
+            Scanner sc = new Scanner(System.in);
+            x = sc.nextDouble() ;
+
+            System.out.println("Nhap vao so nguyuen y >0 ");
+            Scanner sc1 = new Scanner(System.in);
+            y = sc1.nextDouble();
+        }
+        while (x <= 0|| y<=0 );
+        double pow1=1;
+        for(double i =1;i<=y;i++)
+        {pow1 = Math.pow(x,2*i+1) ;
+        sum14+= pow1 ;}
+        System.out.println("nhan: "+sum14);   */
+
+ //Bai 15 --------------------
+/*  int deno = 0 ; float sum =0 ;
+  for(int i =1; i<=n ;i++)
+        {
+            deno += i ;
+             sum += 1.0/deno ;
+
+        }
+        System.out.println("Tong: "+sum);*/
+
+
+ //Bai 16 --------------------
+    /*    double sum =0 ;
+        double x,y;
+        int deno = 0 ;
+
+        do {
+            System.out.println("Nhap vao co so x >0 ");
+            Scanner sc = new Scanner(System.in);
+            x = sc.nextDouble() ;
+
+            System.out.println("Nhap vao so mu~ y >0 ");
+            Scanner sc1 = new Scanner(System.in);
+            y = sc1.nextDouble();
+        }
+        while (x <= 0|| y<=0 );
+        double pow1=1;
+        for(double i =1;i<=y;i++)
+        {pow1 = Math.pow(x,i) ;
+            deno +=i ;
+            sum+= pow1/deno ;}
+        System.out.println("nhan: "+sum);
+*/
+
+        //Bai 17 --------------------
+      /* double sum =0 ;
+        double x,y;
+        int deno = 1 ;
+
+        do {
+            System.out.println("Nhap vao co so x >0 ");
+            Scanner sc = new Scanner(System.in);
+            x = sc.nextDouble() ;
+
+            System.out.println("Nhap vao so mu~ y >0 ");
+            Scanner sc1 = new Scanner(System.in);
+            y = sc1.nextDouble();
+        }
+        while (x <= 0|| y<=0 );
+        double pow1=1;
+        for(double i =1;i<=y;i++)
+        {pow1 = Math.pow(x,i) ;
+            deno *=i ;
+            sum+= pow1/deno ;}
+        System.out.println("nhan: "+sum);*/
+
+        //Bai 18 --------------------
+/*      double sum =1 ;
+        double x,y;
+        int deno = 1 ;
+
+        do {
+            System.out.println("Nhap vao co so x >0 ");
+            Scanner sc = new Scanner(System.in);
+            x = sc.nextDouble() ;
+
+            System.out.println("Nhap vao so mu~ y >0 ");
+            Scanner sc1 = new Scanner(System.in);
+            y = sc1.nextDouble();
+        }
+        while (x <= 0|| y<=0 );
+        double pow1=1;
+        for(double i =1;i<=y;i++)
+        {pow1 = Math.pow(x,2*i) ;
+            deno *=2*i ;
+            sum+= pow1/deno ;}
+        System.out.println("nhan: "+sum);*/
+
+
+        //Bai 19 --------------------
+/*      double sum =1 ;
+        double x,y;
+        int deno = 1 ;
+
+        do {
+            System.out.println("Nhap vao co so x >0 ");
+            Scanner sc = new Scanner(System.in);
+            x = sc.nextDouble() ;
+
+            System.out.println("Nhap vao so mu~ y >0 ");
+            Scanner sc1 = new Scanner(System.in);
+            y = sc1.nextDouble();
+        }
+        while (x <= 0|| y<=0 );
+        double pow1=1;
+        for(double i =0;i<=y;i++)
+        {pow1 = Math.pow(x,2*i+1) ;
+            deno *=(2*i+1) ;
+            sum+= pow1/deno ;}
+        System.out.println("nhan: "+sum);*/
+// bai 20 ---------
+
+       /*int i , j,count= 0 ;
+       for(i =1; i<=n;i++)
+       {
+           if(n%i==0)
+               System.out.printf("uoc cua " +n +"la: "+i);
+
+       }*/
+
+/*// bai 21 ---------
+      int i ,sum= 0 ;
+       for(i =1; i<=n;i++)
+       {
+           if(n%i==0)
+               sum+= i ;
+               System.out.printf("tong: "+sum);
+
+       }*/
+
+/*// bai 22---------
+      int i ,sum= 0 ;
+       for(i =1; i<=n;i++)
+       {
+           if(n%i==0)
+               sum+= i ;
+               System.out.printf("tong: "+sum);
+
+       }*/
+
+// bai 23---------
+/*      int i ,count = 0 ;
+       for(i =1; i<=n;i++)
+       {
+           if(n%i==0)
+               ++count ;
+               System.out.printf("so luong uoc : "+count);
+
+
+       }*/
+
+//bai 24---------
+    /*  int i ,count = 0 ;
+       for(i =1; i<=n;i++)
+       {
+           if(n%i==0) {
+               if(i%2 !=0)
+
+               System.out.println("uoc so le: " + i);
+           }
+
+       }*/
+
+//bai 25---------
+        int i , s= 0;
+        for(i =1; i<=n;i++) {
+            if (n % i == 0) {
+                if (i % 2 == 0)
+                    s += i;
+
+            }
+        }
+        System.out.println("tong cac uoc chan: " + s);
+
+
     }
 }
